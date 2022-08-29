@@ -6,10 +6,10 @@ import "./App.css";
 
 const App = () => {
   return (
-    <section id="principal">
+    <body>
       <Titulo></Titulo>
       <Formulario></Formulario>
-    </section>
+    </body>
   );
 };
 

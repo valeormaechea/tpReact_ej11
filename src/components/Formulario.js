@@ -24,7 +24,7 @@ const Formulario = () => {
         <p className="m-0">Buscar por categoria: </p>
         <Form.Group controlId="formSelect" className="">
           <Form.Select onChange={handleChange}>
-            <option value="">Disabled select</option>
+            <option value="">Elija una opción</option>
             <option value="business">Negocios</option>
             <option value="entertainment">Entretenimientos</option>
             <option value="general">General</option>
